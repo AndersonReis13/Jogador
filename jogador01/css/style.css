@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#625cbd,#6b0979,#7800ff);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    background: whitesmoke;
+    width: 650px;
+    height: 70vh;
+
+    margin: 10px auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img{
+   
+    margin: 0 auto 40px;
+}
+
+.text{
+    margin: 0px;
+    padding: 10px;
+    color: #000000;
+    
+}
+
+img{
+    border: 5px solid purple;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 10px;
+    width: 40vh;
+    height: 300px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto 20px;
+  
+}
+
+
+button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(188, 33, 188);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.button1, .button2, .button3{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    gap: 50px;
+}
+
